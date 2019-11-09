@@ -4,7 +4,7 @@
 #define N 100	//定义要分析的标识符或常数的最大个数
 #define M 20	//标识符的长度
 
-char *sourceFile="C:/Users/JP-PC/Desktop/编译原理/test.txt";			// 定义进行词法分析的源文件
+char *sourceFile="C:/Users/JP-PC/Desktop/complier/test.txt";			// 定义进行词法分析的源文件
 char *key[8]={"if","else","for","while","do","return","break","continue"};		// 关键字
 char *border[6]={",",";","{","}","(",")"};			// 界符定义
 char *arithmetic[4]={"+","-","*","/"};			// 算术运算符定义
@@ -101,7 +101,7 @@ char digitprocess(char buffer,FILE* fp)
 	}
 	digittp[i+1]='\0';
 	dtype=search(digittp,5);							// 输出整型常数
-	printf("%s (5,%d)\n",digittp,dtype-1);
+	printf("%s (5, %d)\n",digittp, dtype-1);
 	
 	return(buffer);
 }

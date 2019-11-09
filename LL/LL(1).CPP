@@ -1,5 +1,5 @@
 #include<iostream>
-#include "edge.h"
+#include <edge.h>
 using namespace std;
 
 edge::edge()
