@@ -39,6 +39,10 @@ int  main()
     for (i=k-1;i<length;i++)
      printf( "%c" ,str[i]);
    printf( "\t\t" );
+   if((cha >='A' &&  cha <='Z') || (cha >= 'a' && cha <= 'z'))
+	{
+		j = 0;
+	}
     switch (cha)
    {
       case   'i' :
@@ -158,10 +162,10 @@ int  main()
          }
           else   if (how==8)
          {
-           printf( "F->i\n" );
+           printf( "F->%c\n", cha);
            n=1;
            l=l+n-1;
-           ch[l]= 'i' ;
+           ch[l]= cha ;
            step=step+1;
          }
           else
