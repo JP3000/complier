@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: syan1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\JP-PC\AppData\Local\Temp\RSP412B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/syan1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\JP-PC\Desktop\complier\syan1.cpp"
+]
+Creating command line "cl.exe @"C:\Users\JP-PC\AppData\Local\Temp\RSP412B.tmp"" 
+<h3>Output Window</h3>
+Compiling...
+syan1.cpp
+c:\users\jp-pc\desktop\complier\syan1.cpp(7) : fatal error C1083: Cannot open include file: 'stdc++.h': No such file or directory
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+syan1.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
